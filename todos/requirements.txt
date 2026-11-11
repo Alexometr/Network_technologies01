@@ -69,3 +69,7 @@ urllib3==1.26.20
 virtualenv==21.7.14
 wcwidth==0.6.0
 webencodings==0.5.1
+
+sqlmodel
+sqlmodel
+sqlmodel
