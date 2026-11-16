@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from todo import todo_router
-from event_routes import event_router
+from routes.events import event_router
 from database.connection import conn
 
 app = FastAPI()
