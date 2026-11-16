@@ -1,9 +1,8 @@
-from fastapi import FastAPI
 from motor.motor_asyncio import AsyncIOMotorClient
 from beanie import init_beanie
 
 from todo import todo_router
-from event_routes import event_router
+from routes.routes import event_router
 from models.events import Event
 
 
